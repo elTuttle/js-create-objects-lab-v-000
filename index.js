@@ -12,8 +12,13 @@ function Cat (name, breed, age) {
   this.age = age;
 }
 
-function Dog (name, age, foodRequirements) {
+function Ferret (name, age, foodRequirements) {
   this.name = name;
   this.foodRequirements = foodRequirements;
   this.age = age;
+}
+
+function Bird (name, breed) {
+  this.name = name;
+  this.breed = breed;
 }
